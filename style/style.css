@@ -81,17 +81,19 @@ footer>h2,
 
 div{
     display:block;
-    flex-direction: column;
+   padding: 1rem;
 
 }
-.redirect{
+/* .redirect{
+
     padding-top: 0.5rem;
     flex-direction:column;
     display: flex;
-}
+} */
 
 .bottom{
     border-top:#7289da 2px solid;
-    display: block;
+    display:flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
