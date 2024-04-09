@@ -48,18 +48,19 @@ h2,
 .downloadzone{
     padding-bottom: 1rem;
     color: white;
+    text-align: center;
 }
 .download{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     justify-content: center;
-    text-align: center;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size:contain;
     padding: 10rem;
 }
-
+h3{
+    text-align: center;
+}
 
 
 .info{
