@@ -39,8 +39,8 @@ button{
     text-align: center;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-size:100%;
-    height: calc(100% - 2rem);
+    background-size:contain;
+    padding: 12rem;
 }
 
 .info{
@@ -50,22 +50,17 @@ button{
 
 footer {
     background-color: #23272a;
-    display:flex;
-    flex-wrap: wrap;
     padding: 2rem 3rem 0;
     
 }
 
-footer>h2{
+footer>h2,
+.link{
     color: #7289da;
 }
 
 div{
-    color: #7289da;
-    display: flex;
-    flex-direction: column;
-    
-    
+    display: block;
 }
 .redirect{
     padding-top: 0.5rem;
