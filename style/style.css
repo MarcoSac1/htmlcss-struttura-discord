@@ -1,0 +1,33 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    
+}
+
+header{
+    background-color:#255ee9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul>li{
+    padding: 0 1rem;
+}
+/* 
+button{
+    
+} */
