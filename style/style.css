@@ -37,10 +37,21 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    /* height:calc(30% - 2rem); */
+    height:30%;
     background-image: url();
 } 
 
 .explain{
     background-color:#f5f5f5
-} 
+    
+}
+
+footer{
+    background-color: #23272a;
+    color: white;
+    display: block;
+}
+
+footer>h2{
+    color: #7289da;
+}
