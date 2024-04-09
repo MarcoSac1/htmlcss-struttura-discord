@@ -9,7 +9,7 @@ body{
     
 }
 
-header{
+header>section{
     background-color:#255ee9;
     display: flex;
     justify-content: space-around;
@@ -31,3 +31,16 @@ ul>li{
 button{
     
 } */
+
+.download{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    /* height:calc(30% - 2rem); */
+    background-image: url();
+} 
+
+.explain{
+    background-color:#f5f5f5
+} 
