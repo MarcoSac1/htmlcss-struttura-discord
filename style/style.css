@@ -1,15 +1,15 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
     max-width: 1200px;
-    
+    margin: 0 auto;
 }
 
-header>section{
+header > section{
     background-color:#255ee9;
     color: white;
     display: flex;
@@ -27,6 +27,33 @@ ul{
 
 ul>li{
     padding: 0 1rem;
+}
+
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+main > section{
+    padding: 4rem;
+}
+
+div.column{
+    padding: 2rem;
+}
+
+div.column-small{
+    width: 30%;
+    padding-right: 3rem;
+}
+
+div.column-big{
+    width: 50%;
+    
+}
+div img{
+    width: 600px;
 }
 
 button{
@@ -48,7 +75,10 @@ h2,
 .downloadzone{
     padding-bottom: 1rem;
     color: white;
-    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 .download{
     display: block;
@@ -58,9 +88,9 @@ h2,
     background-size:contain;
     padding: 10rem;
 }
-h3{
+/* h3{
     text-align: center;
-}
+} */
 
 
 .info{
@@ -79,11 +109,11 @@ footer>h2,
     color: #7289da;
 }
 
-div{
+/* div{
     display:block;
-   padding: 1rem;
+    padding: 1rem;
 
-}
+} */
 /* .redirect{
 
     padding-top: 0.5rem;
