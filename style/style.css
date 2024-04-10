@@ -40,26 +40,30 @@ main > section{
 }
 
 div.column{
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 div.column-small{
     width: 30%;
-    padding-right: 3rem;
 }
 
 div.column-big{
-    width: 50%;
+    width: 60%;
     
+} 
+section div img{
+    width: 100%;
 }
-div img{
-    width: 600px;
+
+.found{
+    flex-direction: row-reverse;
 }
 
 button{
     border: none;
     padding: .5rem 1rem;
     border-radius: 25px;
+    margin-right: .8rem;
 }
 .black{
     background-color: #23272a;
@@ -69,9 +73,10 @@ button{
 .purple{
     background-color: #7289da;
     color: white;
+    margin-top: 1rem;
 }
 
-h2,
+ h2.white,
 .downloadzone{
     padding-bottom: 1rem;
     color: white;
@@ -88,19 +93,16 @@ h2,
     background-size:contain;
     padding: 10rem;
 }
-/* h3{
+
+.download-foot{
+    justify-content: center;
     text-align: center;
-} */
-
-
-.info{
-    color:#f5f5f5
     
 }
 
 footer {
     background-color: #23272a;
-    padding: 2rem 3rem 0;
+    padding: 3rem;
     
 }
 
@@ -108,22 +110,32 @@ footer>h2,
 .link{
     color: #7289da;
 }
+.container{
+    max-width: 1000px;
+    background-color: #255ee9;
+    
 
-/* div{
-    display:block;
-    padding: 1rem;
-
-} */
-/* .redirect{
-
-    padding-top: 0.5rem;
-    flex-direction:column;
+}
+.row{
     display: flex;
-} */
+    justify-content: space-between;
+    padding: 10px 10px ;
+    align-items: center;
+
+}
+
+.footer{
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
 
 .bottom{
     border-top:#7289da 2px solid;
     display:flex;
     justify-content: space-between;
-    margin-top: 10px;
+    padding: 10px;
 }
