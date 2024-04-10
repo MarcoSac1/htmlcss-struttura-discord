@@ -76,7 +76,7 @@ button{
     margin-top: 1rem;
 }
 
- h2.white,
+h2.white,
 .downloadzone{
     padding-bottom: 1rem;
     color: white;
@@ -85,6 +85,7 @@ button{
     justify-content: center;
 
 }
+
 .download{
     display: block;
     justify-content: center;
@@ -110,32 +111,37 @@ footer>h2,
 .link{
     color: #7289da;
 }
+
 .container{
-    max-width: 1000px;
-    background-color: #255ee9;
-    
-
-}
-.row{
     display: flex;
-    justify-content: space-between;
-    padding: 10px 10px ;
-    align-items: center;
-
 }
 
-.footer{
-    padding: 70px 0;
+.row{
+    padding: 10px 10px ;
+    width: 15%;
+    margin-left: 40px;
 }
 
 .footer-col{
-    width: 20%;
     padding: 0 15px;
+    margin-bottom: 1rem;
+}
+
+h4{
+    color: #7289da;
+}
+
+footer div >h2{
+    color:#7289da
+}
+
+.link{
+    color: white;
 }
 
 .bottom{
     border-top:#7289da 2px solid;
     display:flex;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 10px;
 }
